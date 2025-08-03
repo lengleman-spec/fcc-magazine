@@ -9,3 +9,13 @@
 html {
   font-size: 62.5%; /* adjusts default font-size to 10px, so that it's easier working with rems as a unit of measurement (for example, 2rem would = 20px) */
 }
+
+body {
+  font-family: "Baskervville", serif;
+  color: linen;
+  background-color: rgb(20, 30, 40);
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+}
