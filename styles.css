@@ -1,0 +1,11 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* adjusts default font-size to 10px, so that it's easier working with rems as a unit of measurement (for example, 2rem would = 20px) */
+}
