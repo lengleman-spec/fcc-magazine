@@ -54,6 +54,8 @@ main {
   grid-column: 2 / 3;
   font-size: 1.8rem;
   letter-spacing: 0.6px;
+  column-width: 25rem; /*Although .text is not a grid, you can create cols by using the column-width property. In this instance, it creates 3 cols each 25rem wide.*/
+  text-align: justify; /*Spaces words out like in a magazine article*/
 }
 
 .hero {
@@ -100,4 +102,16 @@ img {
   grid-auto-flow: column; /*Tells the algorithm to create new columns as needed. */
 
   align-items: center;
+}
+
+.first-paragraph::first-letter {
+  font-size: 6rem;
+  color: orangered;
+  float: left;
+  margin-right: 1rem;
+}
+
+hr {
+  margin: 1.5rem 0;
+  border: 1px solid rgba(120, 120, 120, 0.6);
 }
