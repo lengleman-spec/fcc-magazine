@@ -135,4 +135,9 @@ hr {
   display: grid;
   grid-template-columns: 1fr 2fr; /*splits page horizontally into 3rds, giving the first column 1 fractional unit (1/3) and the second 2 fractional units (2/3) */
   column-gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.lists {
+  list-style-type: none;
 }
